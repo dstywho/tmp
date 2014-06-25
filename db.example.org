@@ -1,0 +1,13 @@
+$TTL 10800
+@ IN SOA tsangdev.usersys.redhat.com. root.example.org. (
+	1	;Serial
+	86400	;Refresh
+	3600	;Retry
+	604800	;Expire
+	3600	;Negative caching TTL
+)
+
+@ IN NS tsangdev.usersys.redhat.com.
+
+tsangdev.usersys.redhat.com. IN A 192.168.100.1
+
